@@ -14,19 +14,19 @@ while True:
 
         if esc == 'papel' and ppt == 'tesoura':
             print('cpu: {}'.format(ppt))
-            print('você perdeu :( \n\n\n)')
+            print('você perdeu :( \n\n\n')
 
         elif esc == 'pedra' and ppt == 'papel':
             print('cpu: {}'.format(ppt))
-            print('você perdeu :( \n\n\n)')
+            print('você perdeu :( \n\n\n')
 
         elif esc == 'tesoura' and ppt == 'pedra':
             print('cpu: {}'.format(ppt))
-            print('você perdeu :( \n\n\n)')
+            print('você perdeu :( \n\n\n ')
 
         elif esc == ppt:
             print('cpu: {}'.format(ppt))
-            print('empate')
+            print('empate \n\n\n')
 
         else:
             print('cpu: {}'.format(ppt))
